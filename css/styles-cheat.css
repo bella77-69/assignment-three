@@ -1,0 +1,88 @@
+.navbar{
+background-color: #373A3C;
+}
+
+.navbar-brand{
+color:rgb(253, 253, 253);
+border-radius: 8px;
+font-size: 1rem;
+}
+
+.navbar-menu {
+padding: 0;
+}
+.nav {
+padding: 1rem 0;
+}
+
+.nav-link{
+color:rgb(253, 253, 253);
+padding: 5px;
+border-radius: 8px;
+font-size: 1rem;
+}
+
+.nav-link:hover{
+background:#5a5b5b;
+color:rgb(28, 233, 202);
+}
+
+.nav-link:focus{
+background:rgb(115, 114, 115);
+color:rgb(253, 253, 253);
+}
+
+
+.dropdown-menu{
+background-color: #373A3C;
+}
+
+.dropdown-menu__right {
+right: 0;
+left: auto;
+
+}
+
+.dropdown-item{
+background-color: #373A3C;
+color:rgb(253, 253, 253);
+}
+
+
+.dropdown-item:hover{
+background-color:rgb(115, 114, 115);
+color:rgb(28, 233, 202);;
+}
+
+.dropdown-item:focus{
+background:rgb(255, 255, 255);
+color:rgb(23, 9, 52);
+}
+.dropdown-divider{
+background-color:rgb(246, 246, 246);
+width: 80%;
+margin-left: 8%;
+}
+
+.dropdown-header{
+background:rgb(59, 58, 58);
+color:rgb(28, 233, 202);
+}
+
+.navbar-toggler{
+color:rgb(255, 255, 255);
+border: 1px solid rgb(202, 11, 11);
+
+}
+
+.navbar-toggler:hover{
+color:rgb(9, 9, 9);
+ }
+
+.navbar-toggler:focus{
+color:rgb(252, 252, 252);
+}
+
+.active {
+background-color:rgb(115, 114, 115);
+}
