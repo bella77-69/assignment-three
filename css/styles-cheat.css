@@ -1,5 +1,5 @@
 .navbar{
-background-color: #373A3C;
+background-color: #0e60b1;
 }
 
 .navbar-brand{
@@ -11,6 +11,7 @@ font-size: 1rem;
 .navbar-menu {
 padding: 0;
 }
+
 .nav {
 padding: 1rem 0;
 }
@@ -23,66 +24,63 @@ font-size: 1rem;
 }
 
 .nav-link:hover{
-background:#5a5b5b;
-color:rgb(28, 233, 202);
+background:#001f3f;
+color:rgb(255, 255, 255);
 }
 
 .nav-link:focus{
-background:rgb(115, 114, 115);
-color:rgb(253, 253, 253);
+background:rgb(255, 255, 255);
+color:rgb(23, 9, 52);
 }
-
 
 .dropdown-menu{
-background-color: #373A3C;
+background-color: #0e60b1;
 }
 
-.dropdown-menu__right {
+/* .dropdown-menu__right {
 right: 0;
 left: auto;
-
-}
+} */
 
 .dropdown-item{
-background-color: #373A3C;
+background-color: #0e60b1;
 color:rgb(253, 253, 253);
 }
 
-
 .dropdown-item:hover{
-background-color:rgb(115, 114, 115);
-color:rgb(28, 233, 202);;
+background:#001f3f;
+color:rgb(255, 255, 255);
 }
 
 .dropdown-item:focus{
 background:rgb(255, 255, 255);
 color:rgb(23, 9, 52);
 }
+
 .dropdown-divider{
 background-color:rgb(246, 246, 246);
-width: 80%;
-margin-left: 8%;
+width: 100%;
 }
 
 .dropdown-header{
-background:rgb(59, 58, 58);
-color:rgb(28, 233, 202);
+background:#0e60b1;
+color:#ffffff;
+font-size: 1.125rem;
+text-transform: uppercase;
 }
 
 .navbar-toggler{
 color:rgb(255, 255, 255);
-border: 1px solid rgb(202, 11, 11);
-
 }
 
 .navbar-toggler:hover{
-color:rgb(9, 9, 9);
+color:#001f3f;
  }
 
 .navbar-toggler:focus{
-color:rgb(252, 252, 252);
+color:rgb(23, 9, 52);
 }
 
 .active {
-background-color:rgb(115, 114, 115);
+background-color:#4285f4;
 }

@@ -9,18 +9,19 @@
     <link rel="stylesheet" href="../css/bootstrap.css">
     <link rel="stylesheet" href="../css/styles-cheat.css">
     <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="stylesheet" href="../css/styles-custom.css">
     <!-- <link rel="stylesheet" href="./css/style-border.css"> -->
 
     <title>Assignment Three</title>
 </head>
 <body>
-    <nav class="navbar">
+    <nav class="navbar navbar-full">
     
           <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#menu">
             &#9776;
           </button>
     
-          <div class="collapse navbar-toggleable-xs" id="menu">
+          <div class="collapse navbar-toggleable-xs text-md-right" id="menu">
             <ul class="nav nav-responsive">
               <li class="nav-item">
                 <a class="nav-link" href="../index.html">Home</a>
@@ -36,7 +37,7 @@
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="./custom.html">Custom</a>
-                <div class="dropdown-menu">
+                <div class="dropdown-menu dropdown-menu-right">
                   <div class="dropdown-header">Header</div>
                   <div class="dropdown-divider"></div>
                   <a class="dropdown-item" href="./custom.html">Custom</a>
@@ -47,7 +48,40 @@
             </ul>
           </div><!--toggle-->
       </nav>
-
+      <div class="container">
+        <h2>Birds of the World</h2>
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th scope="col">Bird</th>
+              <th scope="col">Scientific Name</th>
+              <th scope="col">Habitat</th>
+              <th scope="col">Size</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Eagle</th>
+              <td>Aquila chrysaetos</td>
+              <td>Mountains, forests</td>
+              <td>Large</td>
+            </tr>
+            <tr>
+              <th scope="row">Hummingbird</th>
+              <td>Trochilidae family</td>
+              <td>Gardens, tropical rainforests</td>
+              <td>Small</td>
+            </tr>
+            <tr>
+              <th scope="row">Penguin</th>
+              <td>Spheniscidae family</td>
+              <td>Antarctica, subantarctic islands</td>
+              <td>Medium</td>
+            </tr>
+            <!-- Add more rows for additional birds -->
+          </tbody>
+        </table>
+      </div>
       <div class="container">
         <br />
         <div class="table-responsive">
