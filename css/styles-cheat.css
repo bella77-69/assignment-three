@@ -1,86 +1,77 @@
-.navbar{
-background-color: #0e60b1;
+.navbar {
+    background-color: #0e60b1;
 }
 
-.navbar-brand{
-color:rgb(253, 253, 253);
-border-radius: 8px;
-font-size: 1rem;
-}
-
-.navbar-menu {
-padding: 0;
+.navbar-brand {
+    color: rgb(253, 253, 253);
+    border-radius: 8px;
+    font-size: 1rem;
 }
 
 .nav {
-padding: 1rem 0;
+    padding: 1rem 0;
 }
 
-.nav-link{
-color:rgb(253, 253, 253);
-padding: 5px;
-border-radius: 8px;
-font-size: 1rem;
+.nav-link {
+    color: rgb(253, 253, 253);
+    padding: 5px;
+    border-radius: 8px;
+    font-size: 1rem;
 }
 
-.nav-link:hover{
-background:#001f3f;
-color:rgb(255, 255, 255);
+.nav-link:hover {
+    background: #001f3f;
+    color: rgb(255, 255, 255);
 }
 
-.nav-link:focus{
-background:rgb(255, 255, 255);
-color:rgb(23, 9, 52);
+.nav-link:focus {
+    background: rgb(255, 255, 255);
+    color: rgb(23, 9, 52);
 }
 
-.dropdown-menu{
-background-color: #0e60b1;
+.dropdown-menu {
+    background-color: #0e60b1;
 }
 
-/* .dropdown-menu__right {
-right: 0;
-left: auto;
-} */
-
-.dropdown-item{
-background-color: #0e60b1;
-color:rgb(253, 253, 253);
+.dropdown-item {
+    background-color: #0e60b1;
+    color: rgb(253, 253, 253);
 }
 
-.dropdown-item:hover{
-background:#001f3f;
-color:rgb(255, 255, 255);
+.dropdown-item:hover {
+    background: #001f3f;
+    color: rgb(255, 255, 255);
 }
 
-.dropdown-item:focus{
-background:rgb(255, 255, 255);
-color:rgb(23, 9, 52);
+.dropdown-item:focus {
+    background: rgb(255, 255, 255);
+    color: rgb(23, 9, 52);
 }
 
-.dropdown-divider{
-background-color:rgb(246, 246, 246);
-width: 100%;
+.dropdown-divider {
+    background-color: rgb(246, 246, 246);
+    width: 100%;
 }
 
-.dropdown-header{
-background:#0e60b1;
-color:#ffffff;
-font-size: 1.125rem;
-text-transform: uppercase;
+.dropdown-header {
+    background: #0e60b1;
+    color: #ffffff;
+    font-size: 1.125rem;
+    text-transform: uppercase;
 }
 
-.navbar-toggler{
-color:rgb(255, 255, 255);
+.navbar-toggler {
+    color: rgb(255, 255, 255);
 }
 
-.navbar-toggler:hover{
-color:#001f3f;
- }
+.navbar-toggler:hover {
+    color: #001f3f;
+}
 
-.navbar-toggler:focus{
-color:rgb(23, 9, 52);
+.navbar-toggler:focus {
+    color: rgb(23, 9, 52);
 }
 
 .active {
-background-color:#4285f4;
+    background-color: #4285f4;
 }
