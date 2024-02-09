@@ -1,21 +1,84 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+}
+
 body {
-background-color: #f7f5d3;
-margin: 0 auto;
+    background-color: #f7f5d3;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 hr {
-border: 1.5px solid #1a2a46;
+    border: 1.5px solid #1a2a46;
 
 }
 
 .h1 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Quicksand', sans-serif;
     color: #1a2a46;
+    font-weight: 500;
+}
+
+.h2 {
+    color: #1a2a46;
+    font-weight: 400;
 }
 
 p {
-    font-family: 'Muli', sans-serif;
     color: #1f3253;
+    font-size: 1.125rem;
+}
+
+span {
+    color: #1a2a46;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+small {
+    color: #1a2a46;
+    font-size: .875rem;
+    font-weight: 600;
+
+}
+
+label {
+    color: #1a2a46;
+    font-size: 1rem;
     font-weight: 500;
+}
+
+option {
+    color: #1a2a46;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.btn {
+    background-color: #0e60b1;
+    color: #f7f5d3;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: .5rem 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #001f3f;
+    color: #f7f5d3;
+}
+
+thead {
+    background-color: #0e60b1;
+    color: #f7f5d3;
+}
+
+th {
+    padding: 1rem;
+}
+
+td {
     font-size: 1rem;
 }
